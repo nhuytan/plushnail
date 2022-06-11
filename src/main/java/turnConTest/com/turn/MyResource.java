@@ -993,7 +993,7 @@ public class MyResource {
 	private String buildJson(ArrayList<ArrayList<Employee>> employee, int checkL, boolean search) {
 		try
 			{
-			    Thread.sleep((long)(Math.random() * 1));
+			    Thread.sleep((long)(Math.random() * 2));
 			}
 			catch(InterruptedException ex)
 			{
