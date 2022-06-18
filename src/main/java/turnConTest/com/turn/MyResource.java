@@ -347,7 +347,7 @@ public class MyResource {
 		int checkL = checkLogin(token);
 		if (checkL == 1) {
 			//if (EmployeeDAO.isSameName(userName)) {
-			if (1 == 1)) {
+			if (true) {
 				return "{\"error\": \"sameName\"}";
 			}
 			employee = EmployeeDAO.getEmployee();
