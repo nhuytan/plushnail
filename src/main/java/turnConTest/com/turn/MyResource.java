@@ -346,7 +346,8 @@ public class MyResource {
 		String token = httpheaders.getHeaderString("Authorization");
 		int checkL = checkLogin(token);
 		if (checkL == 1) {
-			if (EmployeeDAO.isSameName(userName)) {
+			//if (EmployeeDAO.isSameName(userName)) {
+			if (1 == 1)) {
 				return "{\"error\": \"sameName\"}";
 			}
 			employee = EmployeeDAO.getEmployee();
